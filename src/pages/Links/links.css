@@ -1,0 +1,58 @@
+.left-btn{
+    margin-top: 40px;
+    margin-left: 20px;
+    padding: 8px;
+    width: 60px;
+    background-color: transparent;
+    border: none;
+    color: black;
+}
+
+.links-container{
+    height: 10px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+
+.links-manager{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.link-btn{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    border-radius: 5px;
+    height: 40px;
+    margin-right: 10px;
+    padding: 0 14px;
+    border: none;
+    background-color: rgba(94, 91, 91, 0.555);
+    color: rgb(150, 148, 148);
+    font-size: 18px;
+}
+
+.link-btn svg{
+    margin-right: 8px;
+}
+
+.delete-btn{
+    border: none;
+    background: transparent;
+}
+
+@media (max-width: 1200px ){
+    .content-container{
+        width: 90%;
+        left: 5%;
+    }
+}

@@ -1,0 +1,95 @@
+body{
+    background: linear-gradient(to right, #194485, #4b9e6c)
+}
+
+.container-home{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.link-header{
+    position: absolute;
+    display: flex;
+    top: 30px;
+    right: 10%;
+    background-color: white;
+    height: 40px;
+    padding: 10px 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: rgba(31, 25, 25, 0.829);
+}
+
+.link-header a{
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    color: white;
+    font-size: 60px;
+}
+
+span{
+    color: rgba(31, 25, 25, 0.829);
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.input-home{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.input-home div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+    margin-top: 40px;
+    background-color: rgba(94, 91, 91, 0.555);
+    border-radius: 10px;
+}
+
+.input-home svg{
+    margin: 0 10px;
+}
+
+.input-home input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+.input-home ::placeholder{
+    color: rgb(150, 148, 148);
+    font-size: 16px;
+}
+
+.input-home button{
+    background-color: black;
+    width: 60%;
+    margin-left: 90px;
+    height: 60px;
+    padding: 15px;
+    color: white;
+}
+
+@media (max-width: 600px ){
+    .input-home{
+        width: 90%;
+    }
+
+}
