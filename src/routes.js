@@ -8,7 +8,7 @@ function RoutesApp(){
     return(
         <BrowserRouter>
            <Routes>
-               <Route path="/" element={<Home/>} />
+               <Route path="/url-shortener" element={<Home/>} />
                <Route path="/links" element={<Links/>} />
                <Route path="*" element={<Error/>} />
            </Routes>
